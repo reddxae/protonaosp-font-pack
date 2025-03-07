@@ -1,0 +1,6 @@
+id=protonaosp-font-pack
+name=ProtonAOSP Font Pack
+version=v15.0 (pixel)
+versionCode=1520250307
+author=kdrag0n, reddxae
+description=Use Inter (4.1) instead of Roboto and Google Sans, Fira Code (6.2) for monospace text and Source Serif (4.005) for serif text, keeping Roboto as a fallback for characters not supported by Inter.

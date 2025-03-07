@@ -1,0 +1,1 @@
+( until pm enable com.google.android.gms/com.google.android.gms.fonts.provider.FontsProvider; do sleep 5; done; pm enable com.google.android.gms/com.google.android.gms.fonts.update.UpdateSchedulerService ) &

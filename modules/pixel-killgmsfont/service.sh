@@ -1,0 +1,1 @@
+( until pm disable com.google.android.gms/com.google.android.gms.fonts.provider.FontsProvider; do sleep 30; done; pm disable com.google.android.gms/com.google.android.gms.fonts.update.UpdateSchedulerService; rm /data/user/0/com.google.android.gms/files/fonts/opentype/Google_Sans* ) &
