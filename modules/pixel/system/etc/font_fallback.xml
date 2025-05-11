@@ -90,16 +90,16 @@
     <alias name="google-sans" to="sans-serif" />
  
     <family customizationType="new-named-family" name="google-sans-medium">
-      <font weight="470" style="normal">Roboto-Regular.ttf
+      <font weight="500" style="normal">Roboto-Regular.ttf
         <axis tag="opsz" stylevalue="14"/>
-        <axis tag="wght" stylevalue="470"/>
+        <axis tag="wght" stylevalue="500"/>
       </font>
     </family>
 
     <family customizationType="new-named-family" name="google-sans-bold">
-      <font weight="670" style="normal">Roboto-Regular.ttf
+      <font weight="700" style="normal">Roboto-Regular.ttf
         <axis tag="opsz" stylevalue="14"/>
-        <axis tag="wght" stylevalue="670"/>
+        <axis tag="wght" stylevalue="700"/>
       </font>
     </family>
 
@@ -108,30 +108,30 @@
     <alias name="google-sans-text-italic" to="sans-serif" />
 
     <family customizationType="new-named-family" name="google-sans-text-medium">
-      <font weight="470" style="normal">Roboto-Regular.ttf
+      <font weight="500" style="normal">Roboto-Regular.ttf
         <axis tag="opsz" stylevalue="14"/>
-        <axis tag="wght" stylevalue="470"/>
+        <axis tag="wght" stylevalue="500"/>
       </font>
     </family>
 
     <family customizationType="new-named-family" name="google-sans-text-medium-italic">
-      <font weight="470" style="italic">Roboto-Italic.ttf
+      <font weight="500" style="italic">Roboto-Italic.ttf
         <axis tag="opsz" stylevalue="14"/>
-        <axis tag="wght" stylevalue="470"/>
+        <axis tag="wght" stylevalue="500"/>
       </font>
     </family>
 
     <family customizationType="new-named-family" name="google-sans-text-bold">
-      <font weight="670" style="normal">Roboto-Regular.ttf
+      <font weight="700" style="normal">Roboto-Regular.ttf
         <axis tag="opsz" stylevalue="14"/>
-        <axis tag="wght" stylevalue="670"/>
+        <axis tag="wght" stylevalue="700"/>
       </font>
     </family>
 
     <family customizationType="new-named-family" name="google-sans-text-bold-italic">
-      <font weight="670" style="italic">Roboto-Italic.ttf
+      <font weight="700" style="italic">Roboto-Italic.ttf
         <axis tag="opsz" stylevalue="14"/>
-        <axis tag="wght" stylevalue="670"/>
+        <axis tag="wght" stylevalue="700"/>
       </font>
     </family>
 
