@@ -14,10 +14,18 @@ All fonts included in this repo are open-source and licensed under the [SIL Open
 
 Here's an explanation of what prefixes mean.
 
-* `lineage` — simply replaces system fonts. Suitable for AOSP or LineageOS based ROMs without GMS.
-* `lineage-killgmsfont` — replaces system fonts and kills internal GMS Font API Service to ensure Google Apps rely on custom installed fonts. Suitable for AOSP or LineageOS based ROMs with GMS.
-* `pixel` — replaces system fonts. Suitable for stock Pixel OS or ROMs based on it, but some Google apps will still use Google Sans.
-* `pixel-killgmsfont` — replaces system fonts and kills internal GMS Font API Service to ensure that all Google Apps rely on custom installed fonts. Suitable for stock Pixel OS or ROMs based on it.
+* [**`lineage`**](/modules/lineage) — simply replaces system fonts.  
+Suitable for AOSP or LineageOS based ROMs without GMS. With GMS, some Google apps will still use Google Sans. 
+* [**`lineage-killgmsfont`**](/modules/lineage-killgmsfont) — replaces system fonts and kills internal GMS Font API Service to ensure Google apps rely on custom installed fonts.  
+Suitable for AOSP or LineageOS based ROMs with GMS.
+
+And the same for the Pixel lineup:
+* [**`pixel`**](/modules/pixel) — simply replaces system fonts.  
+Suitable only for stock Pixel OS or Pixel-like ROMs. Some Google apps will still use Google Sans. 
+* [**`pixel-killgmsfont`**](/modules/pixel-killgmsfont) — replaces system fonts and kills internal GMS Font API Service to ensure that all Google Apps rely on custom installed fonts.  
+Suitable only for stock Pixel OS or Pixel-like ROMs.
+
+Module version indicates which OS version the module is designed for (e.g. v15.1 is for Android 15 QPR1). However, it should usually be compatible with the latest Android versions.
 
 ## Compatibility
 
@@ -25,10 +33,11 @@ To maximize compatibility, all font names have been patched to match the origina
 
 Additionally, Roboto will be used as a fallback for characters not supported by Inter. This way, unsupported characters are still displayed with the correct metrics and hints.
 
-Since the Pixel stock uses Google Sans for UI and Google apps, and this implementation is a bit hard-coded and doesn't use auto-adjustment in some cases, I had to manually set the most eye-pleasing font metrics for certain styles (see [font_fallback.xml](/modules/pixel/system/etc/font_fallback.xml)). You can change them to your liking by changing the values where they're set.
+Since the stock Pixel OS uses Google Sans for the UI and Google apps, and its implementation is a bit hard-coded and lacks auto-adjustment in some cases, I had to manually set the most eye-pleasing font metrics for certain styles (see [font_fallback.xml](/modules/pixel/system/etc/font_fallback.xml#L87)). You can change them to your liking by increasing or decreasing the values.
+
 ____
 
-Compatible and tested with pure clean Android 15 (LineageOS 22.1) and stock Pixel OS (AP4A.250205.002). Most likely won't work with vendor ROMs like HyperOS, ColorOS etc. 
+Compatible with and tested on stock Android 15 (LineageOS 22.1) and stock Pixel OS (AP4A.250205.002). It is unlikely to work with vendor ROMs such as HyperOS or ColorOS.
 
 ## Credits
 
