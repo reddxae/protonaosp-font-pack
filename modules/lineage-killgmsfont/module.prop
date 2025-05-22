@@ -1,6 +1,6 @@
 id=fontpack
 name=ProtonAOSP Font Pack
-version=15.1-killgmsfont
-versionCode=20250511
+version=15.1
+versionCode=20250522
 author=kdrag0n, reddxae
-description=Replace Android's system fonts with Inter and other complementary fonts.
+description=[✨ module type: AOSP / LineageOS, add-ons: Kill GMS Font] Replace Android's system fonts with Inter and other complementary fonts.
