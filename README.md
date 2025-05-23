@@ -29,11 +29,11 @@ Module version indicates which OS version the module is designed for (e.g. v15.1
 
 ## Compatibility
 
-To maximize compatibility, all font names have been patched to match the original fonts. This fixes some issues in third-party apps, such as Firefox.
+To maximize compatibility, all font names have been patched to match the original fonts. This fixes some issues in third-party apps, such as Firefox. You can do the same using the attached script in the repository files.
 
-Additionally, Roboto will be used as a fallback for characters not supported by Inter. This way, unsupported characters are still displayed with the correct metrics and hints.
+Additionally, Roboto [will be used as a fallback](/modules/lineage/system/etc/font_fallback.xml#L89-L96) for characters not supported by Inter. This way, unsupported characters are still displayed with the correct metrics and hints.
 
-Since the stock Pixel OS uses Google Sans for the UI and Google apps, and its implementation is a bit hard-coded and lacks auto-adjustment in some cases, I had to manually set the most eye-pleasing font metrics for certain styles (see [font_fallback.xml](/modules/pixel/system/etc/font_fallback.xml#L87)). You can change them to your liking by increasing or decreasing the values.
+Since the stock Pixel OS uses Google Sans for the UI and Google apps, and its implementation is a bit hard-coded and lacks auto-adjustment in some cases, I had to manually set the most eye-pleasing font metrics for certain styles (see [font_fallback.xml](/modules/pixel/system/etc/font_fallback.xml#L87-L138)) in Pixel modules lineup. You can change them to your liking by increasing or decreasing the values.
 
 ____
 
