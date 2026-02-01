@@ -15,7 +15,8 @@ function replace_name() {
 }
 
 replace_name "Inter Variable" "Roboto" Roboto-*.ttx
-replace_name "Source Serif 4 Display" "Noto Serif" NotoSerif-*.ttx
+replace_name "Roboto" "Roboto Fallback" Roboto-Fallback.ttx
+replace_name "Source Serif 4" "Noto Serif" NotoSerif-*.ttx
 replace_name "Fira Code" "Cutive Mono" CutiveMono.ttx
 replace_name "Fira Code" "Droid Sans Mono" DroidSansMono.ttx
 

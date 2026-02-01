@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fonts-modification version="1">
+  <!--  baseline -->
+  <!--  display -->
+  <family customizationType="new-named-family" name="variable-display-large">
+    <font style="normal" weight="400">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="57.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-display-medium">
+    <font style="normal" weight="400">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="45.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-display-small">
+    <font style="normal" weight="400">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="36.0"/>
+    </font>
+  </family>
+  <!--  headline -->
+  <family customizationType="new-named-family" name="variable-headline-large">
+    <font style="normal" weight="400">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="32.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-headline-medium">
+    <font style="normal" weight="400">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="28.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-headline-small">
+    <font style="normal" weight="400">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="24.0"/>
+    </font>
+  </family>
+  <!--  title -->
+  <family customizationType="new-named-family" name="variable-title-large">
+    <font style="normal" weight="400">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="22.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-title-medium">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="16.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-title-small">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="14.0"/>
+    </font>
+  </family>
+  <!--  label -->
+  <family customizationType="new-named-family" name="variable-label-large">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="14.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-label-medium">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="12.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-label-small">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="11.0"/>
+    </font>
+  </family>
+  <!--  body -->
+  <family customizationType="new-named-family" name="variable-body-large">
+    <font style="normal" weight="400">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="16.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-body-medium">
+    <font style="normal" weight="400">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="14.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-body-small">
+    <font style="normal" weight="400">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="opsz" stylevalue="12.0"/>
+    </font>
+  </family>
+
+  <!--  emphasized -->
+  <!--  display -->
+  <family customizationType="new-named-family" name="variable-display-large-emphasized">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="57.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-display-medium-emphasized">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="45.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-display-small-emphasized">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="36.0"/>
+    </font>
+  </family>
+  <!--  headline -->
+  <family customizationType="new-named-family" name="variable-headline-large-emphasized">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="32.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-headline-medium-emphasized">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="28.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-headline-small-emphasized">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="24.0"/>
+    </font>
+  </family>
+  <!--  title -->
+  <family customizationType="new-named-family" name="variable-title-large-emphasized">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="22.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-title-medium-emphasized">
+    <font style="normal" weight="600">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="600"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="16.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-title-small-emphasized">
+    <font style="normal" weight="600">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="600"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="14.0"/>
+    </font>
+  </family>
+  <!--  label -->
+  <family customizationType="new-named-family" name="variable-label-large-emphasized">
+    <font style="normal" weight="600">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="600"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="14.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-label-medium-emphasized">
+    <font style="normal" weight="600">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="600"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="12.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-label-small-emphasized">
+    <font style="normal" weight="600">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="600"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="11.0"/>
+    </font>
+  </family>
+  <!--  body -->
+  <family customizationType="new-named-family" name="variable-body-large-emphasized">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="16.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-body-medium-emphasized">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="14.0"/>
+    </font>
+  </family>
+  <family customizationType="new-named-family" name="variable-body-small-emphasized">
+    <font style="normal" weight="500">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+      <axis tag="wdth" stylevalue="100"/>
+      <axis tag="GRAD" stylevalue="0"/>
+      <axis tag="ROND" stylevalue="100"/>
+      <axis tag="opsz" stylevalue="12.0"/>
+    </font>
+  </family>
+
+  <family customizationType="new-named-family" name="google-sans-clock">
+    <font>GoogleSansClock-Regular.ttf</font>
+  </family>
+
+  <family-list customizationType="new-named-family" name="google-sans-flex-clock">
+    <family>
+      <font>GoogleSansFlexClock-Regular.ttf</font>
+    </family>
+    <family>
+      <font>GoogleSansClock-Regular.ttf</font>
+    </family>
+  </family-list>
+
+  <family customizationType="new-named-family" name="arbutus-slab">
+    <font weight="400" style="normal">ArbutusSlab-Regular.ttf</font>
+  </family>
+
+  <family customizationType="new-named-family" name="lato">
+    <font weight="400" style="normal">Lato-Regular.ttf</font>
+    <font weight="400" style="italic">Lato-Italic.ttf</font>
+    <font weight="700" style="normal">Lato-Bold.ttf</font>
+    <font weight="700" style="italic">Lato-BoldItalic.ttf</font>
+  </family>
+  <alias name="lato-bold" to="lato" weight="700" />
+
+  <family customizationType="new-named-family" name="rubik">
+    <font weight="400" style="normal">Rubik-Regular.ttf</font>
+    <font weight="400" style="italic">Rubik-Italic.ttf</font>
+    <font weight="500" style="normal">Rubik-Medium.ttf</font>
+    <font weight="500" style="italic">Rubik-MediumItalic.ttf</font>
+    <font weight="700" style="normal">Rubik-Bold.ttf</font>
+    <font weight="700" style="italic">Rubik-BoldItalic.ttf</font>
+  </family>
+  <alias name="rubik-medium" to="rubik" weight="500" />
+
+  <family customizationType="new-named-family" name="zilla-slab-medium">
+    <font weight="500" style="normal">ZillaSlab-Medium.ttf</font>
+    <font weight="500" style="italic">ZillaSlab-MediumItalic.ttf</font>
+    <font weight="600" style="normal">ZillaSlab-SemiBold.ttf</font>
+    <font weight="600" style="italic">ZillaSlab-SemiBoldItalic.ttf</font>
+  </family>
+  <alias name="zilla-slab-semi-bold" to="zilla-slab-medium" weight="600" />
+
+  <family customizationType="new-named-family" name="lustria">
+    <font weight="400" style="normal">Lustria-Regular.ttf</font>
+  </family>
+  <alias name="lustria" to="lustria" weight="400"/>
+
+  <family customizationType="new-named-family" name="karla">
+    <font weight="400" style="normal">Karla-Regular.ttf</font>
+  </family>
+  <alias name="karla" to="karla" weight="400"/>
+
+  <family customizationType="new-named-family" name="fraunces">
+    <font
+      weight="400"
+      style="normal"
+      postScriptName="Fraunces144ptS100Black-OpticalSize9Weight347soften100wonk0"
+      >Fraunces-Regular.ttf</font>
+    <font
+      weight="600"
+      style="normal"
+      postScriptName="Fraunces144ptS100Black-OpticalSize9Weight640soften100wonk0"
+      >Fraunces-SemiBold.ttf</font>
+  </family>
+  <alias name="fraunces" to="fraunces" weight="400"/>
+  <alias name="fraunces-semi-bold" to="fraunces" weight="600"/>
+
+  <family customizationType="new-named-family" name="big-shoulders-text">
+    <font weight="700" style="normal">BigShouldersText-Bold.ttf</font>
+    <font weight="800" style="normal">BigShouldersText-ExtraBold.ttf</font>
+  </family>
+  <alias name="big-shoulders-text-bold" to="big-shoulders-text" weight="700"/>
+  <alias name="big-shoulders-text-extra-bold" to="big-shoulders-text" weight="800"/>
+
+  <family customizationType="new-named-family" name="barlow">
+    <font weight="700" style="normal">Barlow-Bold.ttf</font>
+    <font weight="500" style="normal">Barlow-Medium.ttf</font>
+  </family>
+  <alias name="barlow-bold" to="barlow" weight="700"/>
+  <alias name="barlow-medium" to="barlow" weight="500"/>
+</fonts-modification>
