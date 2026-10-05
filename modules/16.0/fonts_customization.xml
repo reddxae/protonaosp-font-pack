@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fonts-modification version="1">
+  <!-- Keep legacy Google Sans names while selecting system Inter. -->
+  <alias name="google-sans" to="sans-serif" weight="400"/>
+  <alias name="google-sans-regular" to="sans-serif" weight="400"/>
+  <alias name="google-sans-medium" to="sans-serif" weight="500"/>
+  <alias name="google-sans-bold" to="sans-serif" weight="700"/>
+  <alias name="google-sans-flex" to="sans-serif" weight="400"/>
+  <alias name="google-sans-text" to="sans-serif" weight="400"/>
+  <alias name="google-sans-text-regular" to="sans-serif" weight="400"/>
+  <alias name="google-sans-text-medium" to="sans-serif" weight="500"/>
+  <alias name="google-sans-text-bold" to="sans-serif" weight="700"/>
+  <alias name="google-sans-clock" to="sans-serif" weight="400"/>
+  <alias name="google-sans-flex-clock" to="sans-serif" weight="400"/>
+
+  <!-- OEM font paths are relative to /product/fonts/: reuse system Inter. -->
+  <family customizationType="new-named-family" name="google-sans-text-italic">
+    <font weight="400" style="italic" supportedAxes="wght" postScriptName="Roboto-Italic">../../system/fonts/Roboto-Italic.ttf</font>
+  </family>
+  <alias name="google-sans-text-medium-italic" to="google-sans-text-italic" weight="500"/>
+  <alias name="google-sans-text-bold-italic" to="google-sans-text-italic" weight="700"/>
+</fonts-modification>
