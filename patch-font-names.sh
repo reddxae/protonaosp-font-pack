@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-python3 - "${1:-.}" <<'PY'
+python3 - "${1:-.}" "${2:-}" <<'PY'
 from pathlib import Path
 import os
 import sys
@@ -20,11 +20,19 @@ targets = {
     "DroidSansMono.ttf": ("Droid Sans Mono", "DroidSansMono", False),
     "CutiveMono.ttf": ("Cutive Mono", "CutiveMono", False),
 }
+condensed_targets = {
+    "RobotoCondensed-Regular.ttf": ("Roboto Condensed", "RobotoCondensed", False),
+    "RobotoCondensed-Italic.ttf": ("Roboto Condensed", "RobotoCondensed", True),
+}
+if len(sys.argv) > 2 and sys.argv[2] == "--condensed-only":
+    targets = condensed_targets
+else:
+    targets.update({name: spec for name, spec in condensed_targets.items() if (directory / name).is_file()})
 prefixes = (
     "Source Serif 4 Variable", "Source Serif Pro", "Source Serif 4",
     "SourceSerif4Variable", "SourceSerif4Roman", "SourceSerif4Italic",
     "SourceSerif4", "Inter Variable", "InterVariableItalic", "InterVariable",
-    "Inter", "Fira Code", "FiraCodeRoman", "FiraCode",
+    "Inter Tight", "InterTight", "Inter", "Fira Code", "FiraCodeRoman", "FiraCode",
 )
 identity_ids = {1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25}
 timestamp = 3313612800  # 2009-01-01 UTC, in the OpenType epoch (1904).

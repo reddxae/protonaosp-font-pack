@@ -1,59 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fonts-modification version="1">
-  <!-- Preserve the names used by the UI and map their base weights to system Inter. -->
-  <!-- Aliases reuse /system/fonts/Roboto-Regular.ttf through sans-serif; no product TTFs needed. -->
-
-  <!-- Display -->
-  <alias name="variable-display-large" to="sans-serif" weight="400"/>
-  <alias name="variable-display-large-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-display-medium" to="sans-serif" weight="400"/>
-  <alias name="variable-display-medium-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-display-small" to="sans-serif" weight="400"/>
-  <alias name="variable-display-small-emphasized" to="sans-serif" weight="500"/>
-
-  <!-- Headline -->
-  <alias name="variable-headline-large" to="sans-serif" weight="400"/>
-  <alias name="variable-headline-large-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-headline-medium" to="sans-serif" weight="400"/>
-  <alias name="variable-headline-medium-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-headline-small" to="sans-serif" weight="400"/>
-  <alias name="variable-headline-small-emphasized" to="sans-serif" weight="500"/>
-
-  <!-- Title -->
-  <alias name="variable-title-large" to="sans-serif" weight="400"/>
-  <alias name="variable-title-large-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-title-medium" to="sans-serif" weight="500"/>
-  <alias name="variable-title-medium-emphasized" to="sans-serif" weight="600"/>
-  <alias name="variable-title-small" to="sans-serif" weight="500"/>
-  <alias name="variable-title-small-emphasized" to="sans-serif" weight="600"/>
-
-  <!-- Label -->
-  <alias name="variable-label-large" to="sans-serif" weight="500"/>
-  <alias name="variable-label-large-emphasized" to="sans-serif" weight="600"/>
-  <alias name="variable-label-medium" to="sans-serif" weight="500"/>
-  <alias name="variable-label-medium-emphasized" to="sans-serif" weight="600"/>
-  <alias name="variable-label-small" to="sans-serif" weight="500"/>
-  <alias name="variable-label-small-emphasized" to="sans-serif" weight="600"/>
-
-  <!-- Body -->
-  <alias name="variable-body-large" to="sans-serif" weight="400"/>
-  <alias name="variable-body-large-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-body-medium" to="sans-serif" weight="400"/>
-  <alias name="variable-body-medium-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-body-small" to="sans-serif" weight="400"/>
-  <alias name="variable-body-small-emphasized" to="sans-serif" weight="500"/>
-
-  <!-- Use the existing condensed Roboto family for the narrow notification metric. -->
-  <alias name="variable-display-small-emphasized-narrow" to="sans-serif-condensed" weight="500"/>
-
-  <!-- Compatibility names used by Settings and SystemUI. -->
-  <alias name="google-sans" to="sans-serif" weight="400"/>
-  <alias name="google-sans-regular" to="sans-serif" weight="400"/>
-  <alias name="google-sans-medium" to="sans-serif" weight="500"/>
-  <alias name="google-sans-bold" to="sans-serif" weight="700"/>
-  <alias name="google-sans-flex" to="sans-serif" weight="400"/>
-  <alias name="google-sans-text" to="sans-serif" weight="400"/>
-  <alias name="google-sans-text-regular" to="sans-serif" weight="400"/>
+  <!-- Fixed Pixel UI roles use frozen system faces; generic names remain variable. -->
+  <alias name="variable-display-large" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-display-medium" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-display-small" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-headline-large" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-headline-medium" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-headline-small" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-title-large" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-title-medium" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-title-small" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-label-large" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-label-medium" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-label-small" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-body-large" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-body-medium" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-body-small" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-display-large-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-display-medium-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-display-small-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-headline-large-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-headline-medium-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-headline-small-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-title-large-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-title-medium-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="variable-title-small-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="variable-label-large-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="variable-label-medium-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="variable-label-small-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="variable-body-large-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-body-medium-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-body-small-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="google-sans-medium" to="roboto-ui-500-700" weight="400"/>
+  <alias name="google-sans-bold" to="roboto-ui-700" weight="400"/>
   <alias name="google-sans-text-medium" to="sans-serif" weight="500"/>
   <alias name="google-sans-text-bold" to="sans-serif" weight="700"/>
+  <alias name="google-sans-text-italic" to="roboto-ui-400-italic" weight="400"/>
+  <alias name="google-sans-text-medium-italic" to="roboto-ui-500-italic" weight="400"/>
+  <alias name="google-sans-text-bold-italic" to="roboto-ui-700-italic" weight="400"/>
+  <alias name="variable-display-small-emphasized-narrow" to="roboto-ui-500-narrow" weight="400"/>
+
+  <!-- General UI families retain the requested weight and italic style. -->
+  <alias name="google-sans" to="sans-serif" weight="400"/>
+  <alias name="google-sans-regular" to="sans-serif" weight="400"/>
+  <alias name="google-sans-flex" to="sans-serif" weight="400"/>
+  <alias name="google-sans-flex-medium" to="sans-serif" weight="500"/>
+  <alias name="google-sans-flex-bold" to="sans-serif" weight="700"/>
+  <alias name="google-sans-text" to="sans-serif" weight="400"/>
+  <alias name="google-sans-text-regular" to="sans-serif" weight="400"/>
 </fonts-modification>

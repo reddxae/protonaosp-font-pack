@@ -16,9 +16,6 @@
   <family name="cursive">
     <font supportedAxes="wght">DancingScript-Regular.ttf</font>
   </family>
-  <family name="monospace">
-    <font weight="400" style="normal" supportedAxes="wght">DroidSansMono.ttf</font>
-  </family>
   <family-list name="sans-serif-condensed">
     <family>
       <font weight="400" style="normal" supportedAxes="wght">RobotoCondensed-Regular.ttf</font>
@@ -50,6 +47,9 @@
     <font weight="400" style="normal" supportedAxes="wght">NotoSerif-Regular.ttf</font>
     <font weight="400" style="italic" supportedAxes="wght">NotoSerif-Italic.ttf</font>
   </family>
+  <family name="monospace">
+    <font weight="400" style="normal" supportedAxes="wght">DroidSansMono.ttf</font>
+  </family>
   <family lang="und-Arab" variant="elegant">
     <font weight="400" style="normal" postScriptName="NotoNaskhArabic">NotoNaskhArabic-Regular.ttf</font>
     <font weight="700" style="normal">NotoNaskhArabic-Bold.ttf</font>
@@ -63,16 +63,14 @@
     <font supportedAxes="wght" fallbackFor="serif" postScriptName="NotoSerifEthiopic-Regular">NotoSerifEthiopic-VF.ttf</font>
   </family>
   <family lang="und-Hebr">
-    <font weight="400" style="normal" postScriptName="NotoSansHebrew">NotoSansHebrew-Regular.ttf</font>
+    <font weight="400" style="normal">NotoSansHebrew-Regular.ttf</font>
     <font weight="700" style="normal">NotoSansHebrew-Bold.ttf</font>
-    <font weight="400" style="normal" fallbackFor="serif">NotoSerifHebrew-Regular.ttf</font>
-    <font weight="700" style="normal" fallbackFor="serif">NotoSerifHebrew-Bold.ttf</font>
+    <font style="normal" supportedAxes="wght" fallbackFor="serif">NotoSerifHebrew-Regular.ttf</font>
   </family>
   <family lang="und-Thai" variant="elegant">
     <font weight="400" style="normal" postScriptName="NotoSansThai">NotoSansThai-Regular.ttf</font>
     <font weight="700" style="normal">NotoSansThai-Bold.ttf</font>
-    <font weight="400" style="normal" fallbackFor="serif">NotoSerifThai-Regular.ttf</font>
-    <font weight="700" style="normal" fallbackFor="serif">NotoSerifThai-Bold.ttf</font>
+    <font style="normal" supportedAxes="wght" fallbackFor="serif">NotoSerifThai-Regular.ttf</font>
   </family>
   <family lang="und-Thai" variant="compact">
     <font weight="400" style="normal" postScriptName="NotoSansThaiUI">NotoSansThaiUI-Regular.ttf</font>
@@ -94,8 +92,7 @@
     <font supportedAxes="wght" postScriptName="NotoSansDevanagariUI-Regular">NotoSansDevanagariUI-VF.ttf</font>
   </family>
   <family lang="und-Gujr" variant="elegant">
-    <font weight="400" style="normal" postScriptName="NotoSansGujarati">NotoSansGujarati-Regular.ttf</font>
-    <font weight="700" style="normal">NotoSansGujarati-Bold.ttf</font>
+    <font style="normal" supportedAxes="wght">NotoSansGujarati-Regular.ttf</font>
     <font style="normal" supportedAxes="wght" fallbackFor="serif" postScriptName="NotoSerifGujarati-Regular">NotoSerifGujarati-VF.ttf</font>
   </family>
   <family lang="und-Gujr" variant="compact">
@@ -145,8 +142,7 @@
     <font supportedAxes="wght" postScriptName="NotoSansKannadaUI-Regular">NotoSansKannadaUI-VF.ttf</font>
   </family>
   <family lang="und-Orya" variant="elegant">
-    <font weight="400" style="normal" postScriptName="NotoSansOriya">NotoSansOriya-Regular.ttf</font>
-    <font weight="700" style="normal">NotoSansOriya-Bold.ttf</font>
+    <font style="normal" supportedAxes="wght">NotoSansOriya-Regular.ttf</font>
   </family>
   <family lang="und-Orya" variant="compact">
     <font weight="400" style="normal" postScriptName="NotoSansOriyaUI">NotoSansOriyaUI-Regular.ttf</font>
@@ -164,18 +160,15 @@
       NotoSansKhmer-VF.ttf
       <axis tag="wdth" stylevalue="100.0"/>
     </font>
-    <font weight="400" style="normal" fallbackFor="serif">NotoSerifKhmer-Regular.otf</font>
-    <font weight="700" style="normal" fallbackFor="serif">NotoSerifKhmer-Bold.otf</font>
+    <font style="normal" supportedAxes="wght" fallbackFor="serif">NotoSerifKhmer-Regular.ttf</font>
   </family>
   <family lang="und-Khmr" variant="compact">
     <font weight="400" style="normal" postScriptName="NotoSansKhmerUI">NotoSansKhmerUI-Regular.ttf</font>
     <font weight="700" style="normal">NotoSansKhmerUI-Bold.ttf</font>
   </family>
   <family lang="und-Laoo" variant="elegant">
-    <font weight="400" style="normal">NotoSansLao-Regular.ttf</font>
-    <font weight="700" style="normal">NotoSansLao-Bold.ttf</font>
-    <font weight="400" style="normal" fallbackFor="serif">NotoSerifLao-Regular.ttf</font>
-    <font weight="700" style="normal" fallbackFor="serif">NotoSerifLao-Bold.ttf</font>
+    <font style="normal" supportedAxes="wght">NotoSansLao-Regular.ttf</font>
+    <font style="normal" supportedAxes="wght" fallbackFor="serif">NotoSerifLao-Regular.ttf</font>
   </family>
   <family lang="und-Laoo" variant="compact">
     <font weight="400" style="normal" postScriptName="NotoSansLaoUI">NotoSansLaoUI-Regular.ttf</font>
@@ -648,6 +641,26 @@
       <axis tag="wght" stylevalue="700"/>
     </font>
   </family>
+  <family name="roboto-ui-300-600-900">
+    <font weight="300" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="300"/>
+    </font>
+    <font weight="600" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="600"/>
+    </font>
+    <font weight="900" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="900"/>
+    </font>
+    <font weight="300" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="300"/>
+    </font>
+    <font weight="600" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="600"/>
+    </font>
+    <font weight="900" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="900"/>
+    </font>
+  </family>
   <family-list name="roboto-ui-500-narrow">
     <family>
       <font weight="500" style="normal">RobotoCondensed-Regular.ttf
@@ -670,6 +683,176 @@
       </font>
     </family>
   </family-list>
+  <family name="roboto-ui-400-700-1000">
+    <font weight="400" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="700" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="1000" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="900"/>
+    </font>
+    <font weight="400" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="700" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="1000" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="900"/>
+    </font>
+  </family>
+  <family name="roboto-ui-500-800-1000">
+    <font weight="500" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="800" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="800"/>
+    </font>
+    <font weight="1000" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="900"/>
+    </font>
+    <font weight="500" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="800" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="800"/>
+    </font>
+    <font weight="1000" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="900"/>
+    </font>
+  </family>
+  <family name="roboto-ui-600-900-1000">
+    <font weight="600" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="600"/>
+    </font>
+    <font weight="900" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="900"/>
+    </font>
+    <font weight="1000" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="900"/>
+    </font>
+    <font weight="600" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="600"/>
+    </font>
+    <font weight="900" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="900"/>
+    </font>
+    <font weight="1000" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="900"/>
+    </font>
+  </family>
+  <family name="roboto-ui-500-700-800-1000">
+    <font weight="500" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="700" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="800" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="800"/>
+    </font>
+    <font weight="1000" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="900"/>
+    </font>
+    <font weight="500" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="700" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="800" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="800"/>
+    </font>
+    <font weight="1000" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="900"/>
+    </font>
+  </family>
+  <family name="serif-ui-400">
+    <font weight="400" style="normal">NotoSerif-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="400" style="italic">NotoSerif-Italic.ttf
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+  </family>
+  <family name="roboto-ui-400-700">
+    <font weight="400" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="700" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="400" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="700" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+  </family>
+  <family name="roboto-ui-400-500-700">
+    <font weight="400" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="500" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="700" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="400" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="500" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="700" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+  </family>
+  <family name="serif-ui-500-600">
+    <font weight="500" style="normal">NotoSerif-Regular.ttf
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="600" style="normal">NotoSerif-Regular.ttf
+      <axis tag="wght" stylevalue="600"/>
+    </font>
+    <font weight="500" style="italic">NotoSerif-Italic.ttf
+      <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="600" style="italic">NotoSerif-Italic.ttf
+      <axis tag="wght" stylevalue="600"/>
+    </font>
+  </family>
+  <family name="serif-ui-400-600">
+    <font weight="400" style="normal">NotoSerif-Regular.ttf
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="600" style="normal">NotoSerif-Regular.ttf
+      <axis tag="wght" stylevalue="600"/>
+    </font>
+    <font weight="400" style="italic">NotoSerif-Italic.ttf
+      <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="600" style="italic">NotoSerif-Italic.ttf
+      <axis tag="wght" stylevalue="600"/>
+    </font>
+  </family>
+  <family name="roboto-ui-700-800">
+    <font weight="700" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="800" style="normal">Roboto-Regular.ttf
+      <axis tag="wght" stylevalue="800"/>
+    </font>
+    <font weight="700" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="800" style="italic">Roboto-Italic.ttf
+      <axis tag="wght" stylevalue="800"/>
+    </font>
+  </family>
   <alias name="roboto-condensed" to="sans-serif-condensed" weight="400"/>
   <alias name="Roboto Condensed" to="sans-serif-condensed" weight="400"/>
   <alias name="RobotoCondensed" to="sans-serif-condensed" weight="400"/>
@@ -681,5 +864,22 @@
   <alias name="roboto-regular" to="sans-serif" weight="400"/>
   <alias name="google-sans-clock" to="sans-serif" weight="400"/>
   <alias name="google-sans-flex-clock" to="sans-serif" weight="400"/>
+  <alias name="arbutus-slab" to="serif-ui-400" weight="400"/>
+  <alias name="lato" to="roboto-ui-400-700" weight="400"/>
+  <alias name="lato-bold" to="roboto-ui-400-700" weight="700"/>
+  <alias name="rubik" to="roboto-ui-400-500-700" weight="400"/>
+  <alias name="rubik-medium" to="roboto-ui-400-500-700" weight="500"/>
+  <alias name="zilla-slab-medium" to="serif-ui-500-600" weight="400"/>
+  <alias name="zilla-slab-semi-bold" to="serif-ui-500-600" weight="600"/>
+  <alias name="lustria" to="serif-ui-400" weight="400"/>
+  <alias name="karla" to="roboto-ui-400" weight="400"/>
+  <alias name="fraunces" to="serif-ui-400-600" weight="400"/>
+  <alias name="fraunces-semi-bold" to="serif-ui-400-600" weight="600"/>
+  <alias name="big-shoulders-text" to="roboto-ui-700-800" weight="400"/>
+  <alias name="big-shoulders-text-bold" to="roboto-ui-700-800" weight="700"/>
+  <alias name="big-shoulders-text-extra-bold" to="roboto-ui-700-800" weight="800"/>
+  <alias name="barlow" to="roboto-ui-500-700" weight="400"/>
+  <alias name="barlow-bold" to="roboto-ui-500-700" weight="700"/>
+  <alias name="barlow-medium" to="roboto-ui-500-700" weight="500"/>
   <!-- END UI font profiles -->
 </familyset>

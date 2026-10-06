@@ -1,22 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fonts-modification version="1">
-  <!-- Keep legacy Google Sans names while selecting system Inter. -->
+  <!-- Fixed Pixel UI roles use frozen system faces; generic names remain variable. -->
+  <alias name="gsf-display-large" to="roboto-ui-400" weight="400"/>
+  <alias name="gsf-display-medium" to="roboto-ui-400" weight="400"/>
+  <alias name="gsf-display-small" to="roboto-ui-400" weight="400"/>
+  <alias name="gsf-headline-large" to="roboto-ui-400" weight="400"/>
+  <alias name="gsf-headline-medium" to="roboto-ui-400" weight="400"/>
+  <alias name="gsf-headline-small" to="roboto-ui-400" weight="400"/>
+  <alias name="gsf-title-large" to="roboto-ui-400" weight="400"/>
+  <alias name="gsf-title-medium" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-title-small" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-label-large" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-label-medium" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-label-small" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-body-large" to="roboto-ui-400" weight="400"/>
+  <alias name="gsf-body-medium" to="roboto-ui-400" weight="400"/>
+  <alias name="gsf-body-small" to="roboto-ui-400" weight="400"/>
+  <alias name="gsf-display-large-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-display-medium-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-display-small-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-headline-large-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-headline-medium-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-headline-small-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-title-large-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-title-medium-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="gsf-title-small-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="gsf-label-large-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="gsf-label-medium-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="gsf-label-small-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="gsf-body-large-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-body-medium-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="gsf-body-small-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="google-sans-medium" to="roboto-ui-500" weight="400"/>
+  <alias name="google-sans-bold" to="roboto-ui-700" weight="400"/>
+  <alias name="google-sans-text-medium" to="roboto-ui-500" weight="400"/>
+  <alias name="google-sans-text-bold" to="roboto-ui-700" weight="400"/>
+  <alias name="google-sans-text-italic" to="roboto-ui-400-italic" weight="400"/>
+  <alias name="google-sans-text-medium-italic" to="roboto-ui-500-italic" weight="400"/>
+  <alias name="google-sans-text-bold-italic" to="roboto-ui-700-italic" weight="400"/>
+
+  <!-- General UI families retain the requested weight and italic style. -->
   <alias name="google-sans" to="sans-serif" weight="400"/>
   <alias name="google-sans-regular" to="sans-serif" weight="400"/>
-  <alias name="google-sans-medium" to="sans-serif" weight="500"/>
-  <alias name="google-sans-bold" to="sans-serif" weight="700"/>
   <alias name="google-sans-flex" to="sans-serif" weight="400"/>
+  <alias name="google-sans-flex-medium" to="sans-serif" weight="500"/>
+  <alias name="google-sans-flex-bold" to="sans-serif" weight="700"/>
   <alias name="google-sans-text" to="sans-serif" weight="400"/>
   <alias name="google-sans-text-regular" to="sans-serif" weight="400"/>
-  <alias name="google-sans-text-medium" to="sans-serif" weight="500"/>
-  <alias name="google-sans-text-bold" to="sans-serif" weight="700"/>
-  <alias name="google-sans-clock" to="sans-serif" weight="400"/>
-  <alias name="google-sans-flex-clock" to="sans-serif" weight="400"/>
-
-  <!-- OEM font paths are relative to /product/fonts/: reuse system Inter. -->
-  <family customizationType="new-named-family" name="google-sans-text-italic">
-    <font weight="400" style="italic" supportedAxes="wght" postScriptName="Roboto-Italic">../../system/fonts/Roboto-Italic.ttf</font>
-  </family>
-  <alias name="google-sans-text-medium-italic" to="google-sans-text-italic" weight="500"/>
-  <alias name="google-sans-text-bold-italic" to="google-sans-text-italic" weight="700"/>
 </fonts-modification>

@@ -1,74 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fonts-modification version="1">
-  <!-- Preserve the names used by the UI and map their base weights to system Inter. -->
-  <!-- Aliases reuse /system/fonts/Roboto-Regular.ttf through sans-serif; no product TTFs needed. -->
-
-  <!-- Display -->
-  <alias name="variable-display-large" to="sans-serif" weight="400"/>
-  <alias name="variable-display-large-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-display-medium" to="sans-serif" weight="400"/>
-  <alias name="variable-display-medium-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-display-small" to="sans-serif" weight="400"/>
-  <alias name="variable-display-small-emphasized" to="sans-serif" weight="500"/>
-
-  <!-- Headline -->
-  <alias name="variable-headline-large" to="sans-serif" weight="400"/>
-  <alias name="variable-headline-large-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-headline-medium" to="sans-serif" weight="400"/>
-  <alias name="variable-headline-medium-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-headline-small" to="sans-serif" weight="400"/>
-  <alias name="variable-headline-small-emphasized" to="sans-serif" weight="500"/>
-
-  <!-- Title -->
-  <alias name="variable-title-large" to="sans-serif" weight="400"/>
-  <alias name="variable-title-large-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-title-medium" to="sans-serif" weight="500"/>
-  <alias name="variable-title-medium-emphasized" to="sans-serif" weight="600"/>
-  <alias name="variable-title-small" to="sans-serif" weight="500"/>
-  <alias name="variable-title-small-emphasized" to="sans-serif" weight="600"/>
-
-  <!-- Label -->
-  <alias name="variable-label-large" to="sans-serif" weight="500"/>
-  <alias name="variable-label-large-emphasized" to="sans-serif" weight="600"/>
-  <alias name="variable-label-medium" to="sans-serif" weight="500"/>
-  <alias name="variable-label-medium-emphasized" to="sans-serif" weight="600"/>
-  <alias name="variable-label-small" to="sans-serif" weight="500"/>
-  <alias name="variable-label-small-emphasized" to="sans-serif" weight="600"/>
-
-  <!-- Body -->
-  <alias name="variable-body-large" to="sans-serif" weight="400"/>
-  <alias name="variable-body-large-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-body-medium" to="sans-serif" weight="400"/>
-  <alias name="variable-body-medium-emphasized" to="sans-serif" weight="500"/>
-  <alias name="variable-body-small" to="sans-serif" weight="400"/>
-  <alias name="variable-body-small-emphasized" to="sans-serif" weight="500"/>
-
-  <!-- Use the existing condensed Roboto family for the narrow notification metric. -->
-  <alias name="variable-display-small-emphasized-narrow" to="sans-serif-condensed" weight="500"/>
-
-  <!-- Compatibility names used by Settings and SystemUI. -->
-  <alias name="google-sans" to="sans-serif" weight="400"/>
-  <alias name="google-sans-regular" to="sans-serif" weight="400"/>
-  <alias name="google-sans-medium" to="sans-serif" weight="500"/>
-  <alias name="google-sans-bold" to="sans-serif" weight="700"/>
-  <alias name="google-sans-flex" to="sans-serif" weight="400"/>
-  <alias name="google-sans-text" to="sans-serif" weight="400"/>
-  <alias name="google-sans-text-regular" to="sans-serif" weight="400"/>
+  <!-- Fixed Pixel UI roles use frozen system faces. -->
+  <alias name="variable-display-large" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-display-medium" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-display-small" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-headline-large" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-headline-medium" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-headline-small" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-title-large" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-title-medium" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-title-small" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-label-large" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-label-medium" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-label-small" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-body-large" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-body-medium" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-body-small" to="roboto-ui-400" weight="400"/>
+  <alias name="variable-display-large-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-display-medium-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-display-small-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-headline-large-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-headline-medium-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-headline-small-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-title-large-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-title-medium-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="variable-title-small-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="variable-label-large-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="variable-label-medium-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="variable-label-small-emphasized" to="roboto-ui-600" weight="400"/>
+  <alias name="variable-body-large-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-body-medium-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="variable-body-small-emphasized" to="roboto-ui-500" weight="400"/>
+  <alias name="google-sans-medium" to="roboto-ui-500-700" weight="400"/>
+  <alias name="google-sans-bold" to="roboto-ui-700" weight="400"/>
   <alias name="google-sans-text-medium" to="sans-serif" weight="500"/>
   <alias name="google-sans-text-bold" to="sans-serif" weight="700"/>
+  <alias name="google-sans-text-italic" to="roboto-ui-400-italic" weight="400"/>
+  <alias name="google-sans-text-medium-italic" to="roboto-ui-500-italic" weight="400"/>
+  <alias name="google-sans-text-bold-italic" to="roboto-ui-700-italic" weight="400"/>
+  <alias name="variable-display-small-emphasized-narrow" to="roboto-ui-500-narrow" weight="400"/>
+
+  <!-- General UI families retain the requested weight and italic style. -->
+  <alias name="google-sans" to="sans-serif" weight="400"/>
+  <alias name="google-sans-regular" to="sans-serif" weight="400"/>
+  <alias name="google-sans-flex" to="sans-serif" weight="400"/>
+  <alias name="google-sans-flex-medium" to="sans-serif" weight="500"/>
+  <alias name="google-sans-flex-bold" to="sans-serif" weight="700"/>
+  <alias name="google-sans-text" to="sans-serif" weight="400"/>
+  <alias name="google-sans-text-regular" to="sans-serif" weight="400"/>
+
+  <!-- Preserve Pixel-specific families when available. -->
+  <family customizationType="new-named-family" name="arbutus-slab">
+    <font weight="400" style="normal">ArbutusSlab-Regular.ttf</font>
+  </family>
+  <family customizationType="new-named-family" name="lato">
+    <font weight="400" style="normal">Lato-Regular.ttf</font>
+    <font weight="400" style="italic">Lato-Italic.ttf</font>
+    <font weight="700" style="normal">Lato-Bold.ttf</font>
+    <font weight="700" style="italic">Lato-BoldItalic.ttf</font>
+  </family>
+  <alias name="lato-bold" to="lato" weight="700"/>
+  <family customizationType="new-named-family" name="rubik">
+    <font weight="400" style="normal">Rubik-Regular.ttf</font>
+    <font weight="400" style="italic">Rubik-Italic.ttf</font>
+    <font weight="500" style="normal">Rubik-Medium.ttf</font>
+    <font weight="500" style="italic">Rubik-MediumItalic.ttf</font>
+    <font weight="700" style="normal">Rubik-Bold.ttf</font>
+    <font weight="700" style="italic">Rubik-BoldItalic.ttf</font>
+  </family>
+  <alias name="rubik-medium" to="rubik" weight="500"/>
+  <family customizationType="new-named-family" name="zilla-slab-medium">
+    <font weight="500" style="normal">ZillaSlab-Medium.ttf</font>
+    <font weight="500" style="italic">ZillaSlab-MediumItalic.ttf</font>
+    <font weight="600" style="normal">ZillaSlab-SemiBold.ttf</font>
+    <font weight="600" style="italic">ZillaSlab-SemiBoldItalic.ttf</font>
+  </family>
+  <alias name="zilla-slab-semi-bold" to="zilla-slab-medium" weight="600"/>
+  <family customizationType="new-named-family" name="lustria">
+    <font weight="400" style="normal">Lustria-Regular.ttf</font>
+  </family>
+  <family customizationType="new-named-family" name="karla">
+    <font weight="400" style="normal">Karla-Regular.ttf</font>
+  </family>
+  <family customizationType="new-named-family" name="fraunces">
+    <font weight="400" style="normal" postScriptName="Fraunces144ptS100Black-OpticalSize9Weight347soften100wonk0">Fraunces-Regular.ttf</font>
+    <font weight="600" style="normal" postScriptName="Fraunces144ptS100Black-OpticalSize9Weight640soften100wonk0">Fraunces-SemiBold.ttf</font>
+  </family>
+  <alias name="fraunces-semi-bold" to="fraunces" weight="600"/>
+  <family customizationType="new-named-family" name="big-shoulders-text">
+    <font weight="700" style="normal">BigShouldersText-Bold.ttf</font>
+    <font weight="800" style="normal">BigShouldersText-ExtraBold.ttf</font>
+  </family>
+  <alias name="big-shoulders-text-bold" to="big-shoulders-text" weight="700"/>
+  <alias name="big-shoulders-text-extra-bold" to="big-shoulders-text" weight="800"/>
+  <family customizationType="new-named-family" name="barlow">
+    <font weight="700" style="normal">Barlow-Bold.ttf</font>
+    <font weight="500" style="normal">Barlow-Medium.ttf</font>
+  </family>
+  <alias name="barlow-bold" to="barlow" weight="700"/>
+  <alias name="barlow-medium" to="barlow" weight="500"/>
 
   <!-- In Pixel OS and Pixel-like ROMs, Google Sans is still used for the lockscreen/AOD clock,
   since its metrics are hardcoded into the framework. -->
-  <family customizationType="new-named-family" name="google-sans-clock">
-    <font>GoogleSansClock-Regular.ttf</font>
-  </family>
-
+  <family-list customizationType="new-named-family" name="google-sans-clock">
+    <family>
+      <font>GoogleSansClock-Regular.ttf</font>
+    </family>
+    <family>
+      <font>GoogleSansFlex-Regular.ttf
+        <axis tag="ROND" stylevalue="100"/>
+      </font>
+    </family>
+  </family-list>
   <family-list customizationType="new-named-family" name="google-sans-flex-clock">
     <family>
       <font>GoogleSansFlexClock-Regular.ttf</font>
     </family>
     <family>
       <font>GoogleSansClock-Regular.ttf</font>
+    </family>
+    <!-- The generic Flex face fallback. -->
+    <family>
+      <font>GoogleSansFlex-Regular.ttf
+        <axis tag="ROND" stylevalue="100"/>
+      </font>
     </family>
   </family-list>
 </fonts-modification>

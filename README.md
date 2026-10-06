@@ -3,6 +3,7 @@
 ## Fonts
 
 - [Inter 4.1](https://github.com/rsms/inter) for most text
+  - [Inter Tight](https://github.com/googlefonts/inter-gf-tight) for condensed text
 - [Fira Code 6.2](https://github.com/tonsky/FiraCode) for monospace text
 - [Source Serif 4.005](https://github.com/adobe-fonts/source-serif) for serif text
 
