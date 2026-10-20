@@ -34,6 +34,8 @@
     TODO(rsheeter) update comment; ordering to match 800 to 900 is no longer required
 -->
 <familyset version="23">
+    <!-- Keep this legacy file flat for app parsers such as Skity.
+         Ordered family lists belong in font_fallback.xml; use fallbackFor here. -->
     <!-- first font is default -->
     <family name="sans-serif">
         <font weight="100" style="normal">Roboto-Regular.ttf
@@ -103,8 +105,7 @@
     <alias name="tahoma" to="sans-serif" />
     <alias name="verdana" to="sans-serif" />
 
-    <family-list name="sans-serif-condensed">
-    <family>
+    <family name="sans-serif-condensed">
       <font weight="100" style="normal">RobotoCondensed-Regular.ttf
         <axis tag="wght" stylevalue="100"/>
       </font>
@@ -161,98 +162,97 @@
       </font>
     </family>
     <family>
-      <font weight="100" style="normal">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="100" style="normal">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="0"/>
         <axis tag="wght" stylevalue="100"/>
       </font>
-      <font weight="200" style="normal">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="200" style="normal">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="0"/>
         <axis tag="wght" stylevalue="200"/>
       </font>
-      <font weight="300" style="normal">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="300" style="normal">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="0"/>
         <axis tag="wght" stylevalue="300"/>
       </font>
-      <font weight="400" style="normal">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="400" style="normal">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="0"/>
         <axis tag="wght" stylevalue="400"/>
       </font>
-      <font weight="500" style="normal">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="500" style="normal">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="0"/>
         <axis tag="wght" stylevalue="500"/>
       </font>
-      <font weight="600" style="normal">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="600" style="normal">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="0"/>
         <axis tag="wght" stylevalue="600"/>
       </font>
-      <font weight="700" style="normal">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="700" style="normal">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="0"/>
         <axis tag="wght" stylevalue="700"/>
       </font>
-      <font weight="800" style="normal">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="800" style="normal">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="0"/>
         <axis tag="wght" stylevalue="800"/>
       </font>
-      <font weight="900" style="normal">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="900" style="normal">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="0"/>
         <axis tag="wght" stylevalue="900"/>
       </font>
-      <font weight="100" style="italic">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="100" style="italic">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="1"/>
         <axis tag="wght" stylevalue="100"/>
       </font>
-      <font weight="200" style="italic">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="200" style="italic">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="1"/>
         <axis tag="wght" stylevalue="200"/>
       </font>
-      <font weight="300" style="italic">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="300" style="italic">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="1"/>
         <axis tag="wght" stylevalue="300"/>
       </font>
-      <font weight="400" style="italic">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="400" style="italic">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="1"/>
         <axis tag="wght" stylevalue="400"/>
       </font>
-      <font weight="500" style="italic">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="500" style="italic">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="1"/>
         <axis tag="wght" stylevalue="500"/>
       </font>
-      <font weight="600" style="italic">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="600" style="italic">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="1"/>
         <axis tag="wght" stylevalue="600"/>
       </font>
-      <font weight="700" style="italic">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="700" style="italic">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="1"/>
         <axis tag="wght" stylevalue="700"/>
       </font>
-      <font weight="800" style="italic">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="800" style="italic">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="1"/>
         <axis tag="wght" stylevalue="800"/>
       </font>
-      <font weight="900" style="italic">RobotoFallback-VF.ttf
+      <font fallbackFor="sans-serif-condensed" weight="900" style="italic">RobotoFallback-VF.ttf
         <axis tag="wdth" stylevalue="75"/>
         <axis tag="ital" stylevalue="1"/>
         <axis tag="wght" stylevalue="900"/>
       </font>
     </family>
-  </family-list>
     <alias name="sans-serif-condensed-light" to="sans-serif-condensed" weight="300" />
     <alias name="sans-serif-condensed-medium" to="sans-serif-condensed" weight="500" />
 

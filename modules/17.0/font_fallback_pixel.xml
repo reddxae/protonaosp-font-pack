@@ -142,7 +142,8 @@
     <font supportedAxes="wght" postScriptName="NotoSansKannadaUI-Regular">NotoSansKannadaUI-VF.ttf</font>
   </family>
   <family lang="und-Orya" variant="elegant">
-    <font style="normal" supportedAxes="wght">NotoSansOriya-Regular.ttf</font>
+    <font weight="400" style="normal" postScriptName="NotoSansOriya">NotoSansOriya-Regular.ttf</font>
+    <font weight="700" style="normal">NotoSansOriya-Bold.ttf</font>
   </family>
   <family lang="und-Orya" variant="compact">
     <font weight="400" style="normal" postScriptName="NotoSansOriyaUI">NotoSansOriyaUI-Regular.ttf</font>
